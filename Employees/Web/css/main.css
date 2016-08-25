@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+.main{
+	height : 900px;
+	width : 900px;
+	margin : 0 auto;
+	margin-top : 30px
+}
+ol, ul { 
+	list-style: none;
+}
+
+#left{
+	float : left;
+	height: 630px;
+	width : 20%;
+}
+#lefts{
+	float : left;
+	height: 630px;
+	width : 75%;
+}
+

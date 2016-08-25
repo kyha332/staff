@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+
+.tab1{
+	border: 0;
+	width: 700px;
+	cellpadding: 0;
+	cellspacing: 0;
+}
+.tab2{
+	border: 0;
+	width: 650px;  
+	cellpadding: 0; 
+	cellspacing: 0;
+}
+.tab3{
+	border: 0;
+	width: 650px;
+	height:200px;
+	cellpadding: 0; 
+	cellspacing: 0;
+}
+.td1{
+	width: 30px;
+}
+#ima{
+	width : 200px;
+	heigth: 300px;
+}
+#left {
+	float: left;
+	width: 150px;
+}
+

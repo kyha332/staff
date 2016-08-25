@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+.header
+{
+	background-color:#555;
+	color : #ffffff;
+	position:relative;
+	height : 150px;
+	width :880px;
+	margin : 0 auto;
+	
+}
+.h1{
+	margin-top : 50px;
+	font-size : 40px;
+}
+.ab{
+	float:right;
+}

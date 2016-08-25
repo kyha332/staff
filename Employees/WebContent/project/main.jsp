@@ -1,0 +1,98 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>사원관리 프로그램</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    li{
+	list-style : none;
+}
+
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+                         
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar" padding : .5em;>
+      <ul class="nav navbar-nav">
+        <center><h1 style ="color:white">사원 프로젝트</h1></center>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">님 로그인</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> 로그아웃</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+     <div class = "buttonStyle">
+     <li class="active"><a href="main.jsp">Home</a></li>
+        <h4>개인 프로젝트 이력 관리</h4>
+        <p> </p>
+       	<li><a href="projectList.jsp">- 프로젝트 이력목록</a></li>
+       	<li><a href="projectInsert.jsp">- 프로젝트 이력등록</a></li>
+       	<p> </p>
+        <h4>개인 정보 관리</h4>
+        <p> </p>
+        <li><a href="staffList.jsp">사원 정보 목록</a></li>
+         <li><a href="staffList.jsp">사원 정보 수정</a></li>
+        <p> </p>
+        <li><a href="noticeList.jsp">공지사항</a></li>
+        </div>
+    </div>
+    <div class="col-sm-9 text-left"> 
+      <h1>공지사항</h1>
+      <p style = "text-align : right"><a href="#">more</a></p>
+      <p>1</p>
+      <p>2</p>
+      <p>3</p>
+      <p>4</p>
+      <p>5</p>
+      <hr>
+      <h3>오늘의 알림</h3>
+    </div>    
+  </div>
+</div>
+<footer class="container-fluid text-center">
+</footer>
+</body>
+</html>
